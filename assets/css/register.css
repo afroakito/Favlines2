@@ -100,6 +100,45 @@ ul {
     width: 100%;
 }
 
+#inputContainer button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.hasAccountText span {
+	font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.hasAccountText {
+	text-align: center;
+}
+
+#registerForm,
+#loginForm {
+	display: none;
+}
+
+#inputContainer label {
+    color: #a0a0a0;
+    font-size: 13px;
+    margin-top: 15px;
+    display: block;
+}
+
+#registerForm input[type="text"],
+#registerForm input[type="password"],
+#registerForm input[type="email"] {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+    color: #fff;
+}
+
 #loginText {
     padding: 45px;
     display: table-cell;
@@ -120,4 +159,10 @@ ul {
     padding: 5px 30px;
     font-size: 20px;
     background: url(../images/icons/check-mark.png) no-repeat;
+}
+
+#inputContainer .errorMessage {
+    color: #07d159;
+    font-size: 12px;
+    display: block;
 }
