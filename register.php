@@ -43,8 +43,6 @@ include("includes/handlers/login-handler.php");
     }
     ?>
 
-    <?php echo strip_tags("<span>Hello</span> world"); ?>
-
     <div class="background">
 
         <div id="loginContainer">

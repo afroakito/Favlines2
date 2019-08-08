@@ -1,0 +1,12 @@
+{
+    "name": "akito/favlines2",
+    "authors": [
+        {
+            "name": "アキト",
+            "email": "akitowens999916@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.24"
+    }
+}
